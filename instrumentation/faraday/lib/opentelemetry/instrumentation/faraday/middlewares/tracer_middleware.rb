@@ -20,7 +20,10 @@ module OpenTelemetry
             patch: 'PATCH',
             post: 'POST',
             put: 'PUT',
-            trace: 'TRACE'
+            trace: 'TRACE',
+            propfind: 'PROPFIND',
+            proppatch: 'PROPPATCH',
+            report: 'REPORT'
           }.freeze
 
           # Constant for the HTTP status range
